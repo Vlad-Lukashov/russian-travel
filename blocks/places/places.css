@@ -4,7 +4,7 @@
   max-width: 984px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: auto;
   gap: 80px;
 }
 
@@ -23,11 +23,13 @@
 @media screen and (max-width: 768px) {
   .places {
     margin: 88px 24px 0 24px;
+    gap: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
     margin: 64px 0 0 0;
+    gap: 50px;
   }
 }

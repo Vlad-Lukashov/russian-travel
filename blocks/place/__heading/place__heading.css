@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 320px) {
   .place__heading {
     margin-left: 16px;
   }

@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__text {
-    margin: 25px;
+    margin: 0 0 25px 0;
     font-size: 16px;
     line-height: 26px;
   }
@@ -22,5 +22,9 @@
   .place__text {
     margin-left: 16px;
     margin-right: 16px;
+  }
+  .place__text:last-of-type {
+    margin-left: 16px;
+    margin-right: 16px;;
   }
 }

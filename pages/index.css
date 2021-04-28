@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/link/link.css);
-@import url(../blocks/link/link__undecor/link__undecor.css);
+/*подключаем шрифты*/
+@import url(../vendor/fonts/fonts.css);
+/*подключаем стили страницы*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/figure/figure.css);
-@import url(../blocks/fonts/fonts.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/link__undecor/link__undecor.css);
 /*подключаем стили блока шапки*/
 @import url(../blocks/header/header.css);
 /*подключаем стили логотипа*/
