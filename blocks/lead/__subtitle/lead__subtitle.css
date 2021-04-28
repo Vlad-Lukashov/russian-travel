@@ -1,7 +1,7 @@
 .lead__subtitle {
   margin-top: 32px;
   margin-bottom: 64px;
-  max-width: calc(100% - 344px);
+  max-width: 640px;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
@@ -9,40 +9,15 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__subtitle {
-    margin-bottom: 56px;
-    max-width: calc(100% - 288px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__subtitle {
-    max-width: calc(100% - 128px);
-  }
-}
-
 @media screen and (max-width: 685px) {
   .lead__subtitle {
-    max-width: calc(100% - 110px);
-    font-size: 20px;
-    line-height: 24px;
+    max-width: 400px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 510px) {
   .lead__subtitle {
-    max-width: calc(100% - 71px);
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__subtitle {
-    margin-top: 16px;
-    margin-bottom: 40px;
-    max-width: calc(100% - 32px);
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
   }

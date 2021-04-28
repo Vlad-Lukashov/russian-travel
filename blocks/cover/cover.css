@@ -1,18 +1,70 @@
 .cover {
-  margin: 92px 48px 0px 48px;
-  padding: 0;
-  max-width: 100%;
+  margin: 92px 48px 0 48px;
   min-height: 740px;
   display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
   align-items: center;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
   position: relative;
+  z-index: 1;
+  cursor: pointer;
 }
 
+.cover::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
+
+.cover::after {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: all .5s ease;
+  position: absolute;
+  cursor: pointer;
+  content: "";
+}
+
+.cover:hover::after {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 92px 0 0 0;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .cover {
+    margin: 90px 0 0 0;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .cover {
+    margin: 66px 0 0 0;
+    min-height: 200px;
+  }
+}
+
+/*
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 92px 0 0 0;
@@ -41,4 +93,4 @@
     min-height: 200px;
   }
 }
-
+*/

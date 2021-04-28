@@ -1,6 +1,5 @@
 .gallery {
   margin: 92px 48px 0 48px;
-  min-width: calc(100% - 96px);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -24,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 510px) {
   .gallery {
     margin: 64px 16px 0 16px;
     grid-template-columns: 1fr;

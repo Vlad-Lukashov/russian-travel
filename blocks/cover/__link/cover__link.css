@@ -1,0 +1,14 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 560px;
+  position: absolute;
+  z-index: 2;
+}
+
+@media screen and (max-width: 510px) {
+  .cover__link {
+    max-width: 260px;
+  }
+}
