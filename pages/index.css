@@ -5,7 +5,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/figure/figure.css);
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/link__undecor/link__undecor.css);
+@import url(../blocks/link/__undecor/link__undecor.css);
 /*подключаем стили блока шапки*/
 @import url(../blocks/header/header.css);
 /*подключаем стили логотипа*/
