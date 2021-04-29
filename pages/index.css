@@ -43,7 +43,6 @@
 @import url(../blocks/place/__text/place__text.css);
 /*подключаем стили секции-блока cover*/
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__head/cover__head.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__link/cover__link.css);
