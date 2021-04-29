@@ -1,0 +1,13 @@
+.cover__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 560px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 510px) {
+  .cover__head {
+    max-width: 260px;
+  }
+}
