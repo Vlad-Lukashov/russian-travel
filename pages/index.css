@@ -10,6 +10,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 /*подключаем стили языковых переключателей*/
 @import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-box/header__lang-box.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 /*подключаем стили секции content*/
@@ -30,6 +31,8 @@
 @import url(../blocks/intro/__list-accent/intro__list-accent.css);
 /*подключаем стили секции-блока gallery*/
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__place/gallery__place.css);
+@import url(../blocks/gallery/__box/gallery__box.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 /*подключаем стили секции-блока places*/
 @import url(../blocks/places/places.css);

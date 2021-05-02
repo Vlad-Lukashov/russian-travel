@@ -1,33 +1,15 @@
 .gallery {
   margin: 92px 48px 0 48px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 16px;
-}
-
-@media screen and (max-width: 1024px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .gallery {
     margin: 88px 24px 0 24px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 16px;
   }
 }
 
 @media screen and (max-width: 510px) {
   .gallery {
     margin: 64px 16px 0 16px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    gap: 12px;
   }
 }

@@ -6,15 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
 </head>
 <body class="page">
 <!--Блок шапка с лого и языками-->
   <header class="header">
-    <img src="./images/header-logo.svg" class="header__logo" alt="логотип">
-    <div class="header__lang">
-      <a class="link header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a>
-      <a class="link header__lang-link" href="#" target="_blank">En</a>
-    </div>
+    <a class="link header__logo" href="#">
+      <img src="./images/header-logo.svg" alt="логотип">
+    </a>
+    <ul class="header__lang">
+      <li class="header__lang-box">
+        <a class="link header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a>
+      </li>
+      <li class="header__lang-box">
+        <a class="link header__lang-link" href="#" target="_blank">En</a>
+      </li>
+    </ul>
   </header>
   <main class="content">
     <!--Блок-секция Путешествия по России-->
@@ -56,18 +63,44 @@
     </section>
     <!--Секция-блок с картинками-->
     <section class="gallery">
-      <img class="gallery__image" src="./images/photo-grid-train.jpg" alt="поезд">
-      <img class="gallery__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="облака">
-      <img class="gallery__image" src="./images/photo-grid-tuman.jpg" alt="туман">
-      <img class="gallery__image" src="./images/photo-grid-sochi.jpg" alt="лес">
-      <img class="gallery__image" src="./images/photo-grid-arisa.jpg" alt="уазик">
-      <img class="gallery__image" src="./images/photo-grid-baikal.jpg" alt="байкал">
-      <img class="gallery__image" src="./images/photo-grid-elbrus.jpg" alt="эльбрус">
-      <img class="gallery__image" src="./images/photo-grid-kondratiev.jpg" alt="кондратиев">
-      <img class="gallery__image" src="./images/photo-grid-kamchatka-1.jpg" alt="камчатка">
-      <img class="gallery__image" src="./images/photo-grid-kamchatka-2.jpg" alt="камчатка2">
-      <img class="gallery__image" src="./images/photo-grid-baikal-2.jpg" alt="байкал2">
-      <img class="gallery__image" src="./images/photo-grid-ergaki.jpg" alt="эргаки">
+      <ul class="gallery__place">
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-train.jpg" alt="поезд">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="облака">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-tuman.jpg" alt="туман">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-sochi.jpg" alt="лес">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-arisa.jpg" alt="уазик">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-baikal.jpg" alt="байкал">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-elbrus.jpg" alt="эльбрус">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-kondratiev.jpg" alt="кондратиев">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-kamchatka-1.jpg" alt="камчатка">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-kamchatka-2.jpg" alt="камчатка2">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-baikal-2.jpg" alt="байкал2">
+        </li>
+        <li class="gallery__box">
+          <img class="gallery__image" src="./images/photo-grid-ergaki.jpg" alt="эргаки">
+        </li>
+      </ul>
     </section>
     <!--Секция-Блок с карточками-->
     <section class="places">
